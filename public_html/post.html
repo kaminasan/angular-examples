@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sample Angular Post Submission</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    </head>
+    <body>
+        
+        
+
+           <div class="row">
+                    <form ng-submit="addPost()">
+                    <div class="form-group">
+                        <label id="postTitleLabel" for="postTitleInput">Post Title:</label>
+                        <input type="text" class="form-control" maxlength="255"  id="postTitleInput" name="postTitle" 
+                               value="{{newPost.postTitle}}" placeholder="Post title!" ng-model="newPost.postTitle"required>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label id="postSummaryLabel" class="" for="postSummaryTextArea">Post Summary</label>
+                        <textarea id="postSummaryTextArea" class="form-control" name="postSummary" placeholder="Insert Your Post Summary Here NO HTML" 
+                                  rows="4" cols="50" ng-model="newPost.postSummary" required>{{newPost.postSummary}}</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label id="imageUrlLabel" class="" for="imageUrlInput">Post Image Url</label>
+                        <input id="imageUrlInput" class="form-control" placeholder="Image/postx.JPG" name="postImageUrl" ng-model="newPost.postImageUrl" ng-value="newPost.postImageUrl" required>
+                    </div>
+                    <button type="submit" class="btn btn-danger" ng-show="!editing">Add Post</button>
+                    </form>
+           </div>
+          <script src="appsource/app.js"> </script>
+    </body>
+  
+</html>

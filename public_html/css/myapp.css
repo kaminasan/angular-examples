@@ -1,0 +1,222 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 30, 2015, 12:30:50 PM
+    Author     : teacher
+font-family: 'Lobster', cursive;
+font-family: 'Anonymous Pro', ;
+*/
+html{
+
+}
+body{
+    color:white;
+  background:
+     linear-gradient(
+      rgba(0, 0, 0, 0.35), 
+      rgba(0, 0, 0, 0.35)
+    ),
+      url('/mhs/Images/sitebackground.jpg') no-repeat top  fixed;
+   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+   
+    height:100%;
+    
+}
+h6{
+    margin-top:0;
+}
+
+textarea{
+    color:black;
+}
+
+.navbar{
+    background-color: rgba(55, 175, 23, .4);
+    color:white;
+    
+}
+.solid{
+   background-color: rgba(55, 175, 23, .9); 
+}
+.navbar-brand > h6{
+    margin-top: 0;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+    color:white;
+    font-size: 1.0em;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover{
+    color:#d0e9c6;
+    
+    background-color: rgba(52, 224, 166, 0.83);
+}
+
+#homeLink{
+    color:white;
+    font-family: 'Lobster', cursive;
+   
+}
+
+#historyContainer{
+    margin-top: 4%;
+    background-color: rgba(42, 46, 47, 0.75);
+    padding-top: 3%;
+    padding-bottom: 2%;
+    color:white;
+}
+
+#historyHeader{
+    color:white;
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+}
+#postSection{
+    background: rgba(67, 90, 81, 0.30);
+    color: #00cc66;
+}
+
+#callOut{
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+    color: #8cf3ca;
+}
+
+#contactSection{
+    background: rgba(42, 46, 47, 0.75);
+    color:white;
+}
+#homeLink:hover{
+    background-color:#00cc00; 
+}
+#linksList > li >a{
+    color:white;
+    /*background-color: rgba(33, 62, 119, 0.2);
+    /* margin-right: 1px; */
+}
+
+#linksList > li >a:hover{
+    color:white;
+    background-color: #00cc00;
+    /* margin-right: 1px; */
+}
+
+.full-page{
+    min-height: 100%;
+    height:100%;
+    
+}
+
+#contentContainer{
+   font-family: 'Lobster', cursive;
+   color:white;
+    font-stretch: expanded;
+    position:relative;
+    top:40%;
+   
+}
+.postRow{
+    background-color: rgba(42, 46, 47, 0.75);
+   padding-bottom: 15px;
+    color: white;
+}
+
+.title-row{
+    background-color: rgba(42, 46, 47, 0.75);
+    margin-top:50px;
+    color:white;
+     font-family: 'Lobster', cursive;
+    
+}
+
+#footer{
+    color:white;
+    background-color: rgba(42, 46, 47, 0.75);
+    margin-top: 10px;
+}
+#historyText{
+   font-size: 1.1em;
+}
+#jumbotronRow{
+    position: relative;
+    margin-top:60px;
+   color:white;
+    font-family: 'Lobster', cursive;
+     background: linear-gradient(
+      rgba(0, 0, 0, 0.35), 
+      rgba(0, 0, 0, 0.35)
+    );
+}
+
+#headerIMGDiv{
+    padding-left: 0;
+    padding-right:0;
+   
+}
+
+#landing_box{
+    margin-top: 50px;
+    padding-top: 20%;
+}
+#slidesBox{
+    height: 30%;
+}
+.post{
+    color:#dfcece;
+    padding: 10px;
+   
+}
+
+.post .page-header{
+     font-family: 'Lobster', cursive;
+}
+
+.page-header{
+    margin-top: 10px;
+}
+.recentEventHeader{
+    font-family: 'Lobster', cursive;
+    color:white;
+}
+
+.carousel{
+    height:100%;
+}
+.carousel .item{
+  max-height:350px;
+}
+#theHeader{
+    position: absolute;
+    z-index: 1000;
+    width:100%;
+   
+}
+
+.overlay{
+    position: absolute;
+    z-index: 500;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.10);
+     
+}
+
+.aboveOverlay{
+    z-index: 555;
+}
+
+.dropdown-menu{
+    background-color: rgba(28, 169, 121, 0.83);
+}
+
+.navbar-nav .open .dropdown-menu{
+    background-color: rgba(28, 169, 121, 0.83);
+}
